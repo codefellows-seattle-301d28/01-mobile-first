@@ -42,5 +42,12 @@
 }
 
 .article-body img {
-  float:right;
+  float: right;
+}
+
+footer{
+  background-color: #FFEAA9;
+  color: #000;
+  padding: 20px;
+  text-align: center;
 }

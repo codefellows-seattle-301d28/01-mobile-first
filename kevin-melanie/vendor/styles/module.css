@@ -23,6 +23,32 @@
   display: block;
 }
 
+#about {
+  clear:both;
+}
+
+#about header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#about ul {
+  list-style: none;
+}
+
+
+
+
+@media screen and (min-width: 400px) {
+
+  .main-nav li {
+    display: inline-block;
+    border: none;
+    margin-left: 40px;
+  }
+
+}
+
 @media screen and (min-width: 640px) {
 
   .icon-menu {
