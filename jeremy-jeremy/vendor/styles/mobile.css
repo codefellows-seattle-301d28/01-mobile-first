@@ -1,0 +1,48 @@
+/* Mobile App Styles */
+/* Special credit to CodePen for assistance with the hamburger menu
+  User: Erik Terwan
+  URL: https://codepen.io/erikterwan/pen/EVzeRP */
+  
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  .main-nav-mobile {
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .main-nav-mobile .icon-menu {
+    display: block;
+    position: relative;
+
+    z-index: 2;
+
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .main-nav-mobile .icon-menu: {
+    display: block;
+  }
+
+  .main-nav-mobile .icon-menu input {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0; /* hide this */
+    z-index: 3; /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+    top: 2px;
+    left: 1px;
+  }
+
+  .main-nav-mobile .icon-menu input ~ ul {
+    display: none ;
+  }
+
+  .main-nav-mobile .icon-menu input:checked ~ ul {
+    display: block;
+  }
+
+}
