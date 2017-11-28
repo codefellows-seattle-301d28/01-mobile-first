@@ -23,6 +23,6 @@ li a {
   text-decoration: none;
 }
 
-header .byline {
-  text-decoration: none;
+header div.byline {
+  color: lightslategray;
 }
