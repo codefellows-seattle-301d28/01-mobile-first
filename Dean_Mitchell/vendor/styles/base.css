@@ -1,0 +1,23 @@
+* {
+  font-family: sans-serif;
+}
+
+p {
+  line-height: 160%;
+  font-size: 1.1em;
+}
+
+main {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+address {
+  display: inline-block;
+}
+
+address a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #777777;
+}
