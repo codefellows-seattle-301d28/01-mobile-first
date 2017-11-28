@@ -8,12 +8,12 @@
 
 .icon-menu {
   position: absolute;
-  top: -240px;
-  right: 2px;
+  top: -200px;
+  right: 1px;
 }
 
 .heading-group-h1 {
-  padding-bottom: 1vh;
+  padding-bottom: 15px;
 }
 
 ul {
@@ -21,16 +21,15 @@ ul {
 }
 
 h1 {
-  margin-left: 2vw;
-  padding-top: 3vh;
-  margin-top: 0vh;
-  font-size: 10vh;
+  margin-left: 20px;
+  padding-top: 20px;
+  margin-top: 0px;
+  font-size: 50px;
 }
 
 h2 {
-  margin-left: 2vw;
-  font-size: 3vw;
-  width: 40vw;
+  margin-left: 20px;
+  font-size: 36px;
 }
 
 .byline {
@@ -38,23 +37,24 @@ h2 {
 }
 
 .main-nav ul li {
-  margin-bottom: 4vh;
+  margin-bottom: 15px;
   border-bottom: 1px solid grey;
 }
 
 .main-nav ul {
-  margin-left: -8vh;
-  font-size: 5vh;
-  padding-bottom: 1vh;
+  margin-left: -35px;
+  font-size: 30px;
+  padding-bottom: 15px;
 }
 
 .main-nav ul li {
-  padding-bottom: 3vh;
+  padding-bottom: 15px;
 }
 
 .icon-menu {
-  font-size: 15vh;
+  font-size: 60px;
 }
+
 .icon-home {
   color: #777;
   text-decoration: none;
