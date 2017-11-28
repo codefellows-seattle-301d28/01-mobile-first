@@ -1,0 +1,13 @@
+.site-header {
+  background-color: #ffeb99;
+}
+
+.main-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    display: block;
+  }
+}
