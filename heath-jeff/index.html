@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="vendor/styles/base.css">
   <link rel="stylesheet" href="vendor/styles/layout.css">
   <link rel="stylesheet" href="vendor/styles/module.css">
+  <link rel="stylesheet" href="vender/styles/hamburger.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- PUT YOUR RESPONSE HERE -->
@@ -29,7 +30,7 @@
   <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
-    <!-- PUT YOUR RESPONSE HERE -->
+    <!-- A simple cleaner way to clear all float elements by just making clearfix class that will clear all floats. -->
 
     <section class="heading-group-h1">
       <h1>
@@ -39,6 +40,15 @@
     </section>
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
+      <!-- DONE -->
+      <span class="icon-menu">
+          <ul>
+            <li><a href=“#”>Menu Option 1</a></li>
+            <li><a href=“#”>Menu Option 2</a></li>
+            <li><a href=“#”>Menu Option 3</a></li>
+            <li><a href=“#”>Menu Option 4</a></li>
+          </ul>
+      </span>
 
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
@@ -100,5 +110,6 @@
     <!-- REVIEW: Note the use of &copy; below, and take a moment to look up how special characters are displayed in HTML if you are not familiar with them. -->
     &copy; 2017 Code Fellows | Static Blog | Happy Ipsum!
   </footer>
+  <script src="hamburger.js"></script>
 </body>
 </html>
