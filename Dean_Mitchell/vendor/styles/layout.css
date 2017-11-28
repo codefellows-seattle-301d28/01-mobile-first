@@ -1,0 +1,28 @@
+.site-header {
+  background-color: #ffeba0;
+}
+
+.heading-group-h1 {
+  padding-top: 0.4%;
+  margin-left: 1%;
+}
+
+ul {
+  font-size: 140%;
+  margin-top: -.5%;
+  margin-left: -1%;
+}
+
+li {
+  display: inline-block;
+  margin: 1%;
+}
+
+li a {
+  color: #777777;
+  text-decoration: none;
+}
+
+header .byline {
+  text-decoration: none;
+}
