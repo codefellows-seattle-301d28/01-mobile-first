@@ -1,1 +1,13 @@
 /* APP STYLES */
+
+.main-nav-mobile {
+  display: none;
+}
+
+.main-nav {
+  display: block;
+}
+
+img {
+  max-width: 98%;
+}

@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="./vendor/styles/modules.css" />
   <link rel="stylesheet" href="./vendor/styles/state.css" />
   <link rel="stylesheet" href="./vendor/styles/theme.css" />
+  <link rel="stylesheet" href="./vendor/styles/mobile.css" />
 
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
@@ -39,15 +40,31 @@
       <h2>The shocking power of static pages</h2>
     </section>
     <nav class="main-nav">
-      <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
 
-      <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
-      </ul>
+        <ul>
+          <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+          <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+          <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+          <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        </ul>
     </nav>
+
+    <nav class="main-nav-mobile">
+      <!-- DONE: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
+      <div class="icon-menu">
+        <!-- A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it. -->
+        <input type="checkbox" />
+
+        <ul>
+          <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+          <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+          <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+          <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        </ul>
+      </div>
+    </nav>
+
   </header>
   <main>
     <section id="articles" class="tab-content">

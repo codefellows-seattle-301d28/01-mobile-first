@@ -147,26 +147,67 @@ _Your repository must include:_
 _Your README.md must include:_
 
 ```md
-# Project Name
+# 01-mobile-first Lab
 
-**Author**: Your Name Goes Here
+**Author**: Jeremy
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
 
+This application is an easy to maintain blog called the Kilovolt Blog. I am building it get be responsive, adaptive, and easy to maintain.
+
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+- Locate the online repository
+- Git Fork/Clone repository
+- Open jeremy-jeremy (or the starter-code) repository in your terminal (the folder with index.html)
+- Run live-server npm
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 
-## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+01-mobile-first
+├── .eslintrc.json
+├── .gitignore
+├── LICENSE
+├── README.md
+├── index.html
+├── styles
+│   ├── base.css
+│   ├── fonts
+│   │   ├── icomoon.eot
+│   │   ├── icomoon.svg
+│   │   ├── icomoon.ttf
+│   │   └── icomoon.woff
+│   ├── icons.css
+│   ├── layout.css
+│   └── modules.css
+└── vendor
+    └── styles
+        └── normalize.css
+				└── base.css (document element stylings such as body and main)
+				└── layout.css (basic element layouts such as nav/header/etc)
+				└── modules.css (more specific element target styling such as individual tags)
+				└── state.css (user state adaptions and stylings)
+				└── theme.css (temp changes and stylings)
+				└── mobile.css (mobile adaption styling)
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+## Change Log
+<!-- Use this to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+
+01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource. -->
+11-28-2017 12:00pm - Forked and clone repository
+11-28-2017 12:05pm - Ran through TODO and review items/added comment to answer HTML TODO question
+11-28-2017 12:20pm - Set up live-server
+11-28-2017 12:25pm - Implemented linking of stylesheets and created them as necessary/ACP
+11-28-2017 12:40pm - Implemented hamburger menu using given icons and added css rules to mobile views
+11-28-2017 1:22pm - Updated change log/ACP
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
-```
+	Special credit to CodePen for assistance with the hamburger menu
+  User: Erik Terwan
+  URL: https://codepen.io/erikterwan/pen/EVzeRP
+
+	All other adaptation done myself due to not being at codefellows today (emergency had to come back home: sick)
