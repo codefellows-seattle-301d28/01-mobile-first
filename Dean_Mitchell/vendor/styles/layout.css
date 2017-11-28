@@ -30,25 +30,35 @@ header div.byline {
 
 .mobile-nav {
   display: none;
+
 }
 
 .icon-menu {
   position: absolute;
   top: 0px;
   right: 0px;
+  font-size: 250%;
 }
 
-.icon-menu:hover {
-  
+.mobile-nav-items {
+  display: none;
+  width: 100%;
+}
+
+.icon-menu:hover + .mobile-nav-items {
+  display: block;
+}
+
+.icon-menu:hover + .mobile-nav-items li {
+  display: block;
+  margin-left: -5%;
+  border-bottom: 1px solid #ebdfaf;
+  padding: 1.5%;
 }
 
 @media (max-width: 640px) {
   .mobile-nav {
     display: block;
-  }
-
-  .mobile-nav-items {
-    display: none;
   }
 
   .desktop-nav {
