@@ -1,5 +1,6 @@
 .site-header {
   background-color: #ffeba0;
+  padding-bottom: 0.1%;
 }
 
 .heading-group-h1 {
@@ -8,7 +9,7 @@
 }
 
 ul {
-  font-size: 140%;
+  font-size: 160%;
   margin-top: -.5%;
   margin-left: -1%;
 }
