@@ -14,3 +14,22 @@
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+
+@media (min-width: 641px){
+  float: none;
+  width: 100%;
+  .icon-happy {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  img {
+    width: 100%;
+  }
+  li {
+    display: none;
+  }
+  .main-nav:hover .tab {
+    display: block;
+  }
+}
