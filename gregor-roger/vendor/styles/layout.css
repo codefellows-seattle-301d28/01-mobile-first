@@ -28,3 +28,19 @@ img.pull-right, img.pull-left {
   display: block;
   width: 100%;
 }
+
+@media (min-width: 640px) {
+
+
+  img.pull-right, img.pull-left {
+    display: initial;
+    width:inherit;
+  }
+  img.pull-right {
+    float: right;
+  }
+  img.pull-left {
+    float: left;
+  }
+
+}
