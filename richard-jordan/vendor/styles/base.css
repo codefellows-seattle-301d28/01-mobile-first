@@ -4,11 +4,5 @@
 }
 
 .main-nav {
-  display: none;
-}
-
-@media only screen and (max-width: 600px) {
-  .main-nav {
-    display: block;
-  }
+  display: block;
 }
