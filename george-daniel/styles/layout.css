@@ -1,0 +1,61 @@
+.main-nav ul{
+  display: none;
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.main-nav .active {
+  display: block;
+  transition: all 100ms ease-in-out;
+}
+
+.main-nav div{
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  font-size: 45px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+
+.site-header {
+  background-color: rgb(250, 234, 171)
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: gray;
+}
+
+.main-nav ul li {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+  margin-left: -35px;
+}
+
+@media screen and (min-width: 640px){
+  .main-nav div{
+    display: none;
+  }
+
+  .main-nav ul{
+    display: block;
+    margin-left: -50px;
+  }
+
+  .main-nav ul li{
+    display: inline-block;
+    border-bottom: none;
+    margin-left: 40px;
+  }
+}
