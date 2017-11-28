@@ -1,0 +1,76 @@
+.site-header {
+  background-color: #fceab2;
+}
+
+.main-nav {
+  position: relative;
+}
+
+.icon-menu {
+  position: absolute;
+  top: -240px;
+  right: 2px;
+}
+
+.heading-group-h1 {
+  padding-bottom: 1vh;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  margin-left: 2vw;
+  padding-top: 3vh;
+  margin-top: 0vh;
+  font-size: 10vh;
+}
+
+h2 {
+  margin-left: 2vw;
+  font-size: 3vw;
+  width: 40vw;
+}
+
+.byline {
+  display: inline-block;
+}
+
+.main-nav ul li {
+  margin-bottom: 4vh;
+  border-bottom: 1px solid grey;
+}
+
+.main-nav ul {
+  margin-left: -8vh;
+  font-size: 5vh;
+  padding-bottom: 1vh;
+}
+
+.main-nav ul li {
+  padding-bottom: 3vh;
+}
+
+.icon-menu {
+  font-size: 15vh;
+}
+.icon-home {
+  color: #777;
+  text-decoration: none;
+}
+
+.icon-address-book {
+  color: #777;
+  text-decoration: none;
+}
+
+.icon-twitter3 {
+  color: #777;
+  text-decoration: none;
+}
+
+.icon-github {
+  color: #777;
+  text-decoration: none;
+}

@@ -1,0 +1,12 @@
+@media only screen and (max-width: 900px) {
+
+}
+
+
+.main-nav ul {
+  display: none;
+}
+
+.main-nav:hover ul {
+  display: block;
+}
