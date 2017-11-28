@@ -27,3 +27,31 @@ li a {
 header div.byline {
   color: lightslategray;
 }
+
+.mobile-nav {
+  display: none;
+}
+
+.icon-menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.icon-menu:hover {
+  
+}
+
+@media (max-width: 640px) {
+  .mobile-nav {
+    display: block;
+  }
+
+  .mobile-nav-items {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+}

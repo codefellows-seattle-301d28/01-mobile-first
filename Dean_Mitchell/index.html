@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="vendor/styles/normalize.css">
   <link rel="stylesheet" href="vendor/styles/icons.css">
   <link rel="stylesheet" href="vendor/styles/base.css">
-  <link rel="stylesheet" href="vendor/styles/layout.css">
+  <link rel="stylesheet" media="(max-width: 4000px)" href="vendor/styles/layout.css">
   <link rel="stylesheet" href="vendor/styles/module.css">
   <title>Lab 1</title>
   <!-- TODONE: Add a meta tag to properly set the viewport and initial scale -->
@@ -27,10 +27,20 @@
       <h1>Kilovolt Blog!</h1>
       <h2>The shocking power of static pages</h2>
     </section>
-    <nav class="main-nav">
-      <!--<div class="icon-menu"></div>-->
 
+    <nav class="desktop-nav">
       <ul>
+        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+        <li class="tab"><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+        <li class="tab"><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+      </ul>
+    </nav>
+
+    <nav class="mobile-nav">
+      <div class="icon-menu"></div>
+
+      <ul class="mobile-nav-items">
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
         <li class="tab"><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
