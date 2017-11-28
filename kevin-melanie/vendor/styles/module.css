@@ -1,0 +1,24 @@
+
+.main-nav ul {
+  display: none;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  font-family: times;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.main-nav li {
+  border-bottom: 1px grey solid;
+}
+
+.main-nav a {
+  color: grey;
+  text-decoration: none;
+
+}
+
+.icon-menu:hover + ul {
+  display: block;
+}

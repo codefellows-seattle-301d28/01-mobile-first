@@ -1,0 +1,29 @@
+.site-header {
+  position: relative;
+  background-color: #FFEAA9;
+  color: #000;
+
+}
+
+.heading-group-h1 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+
+.main-nav {
+  /*background-color: #FFEAA9;*/
+  clear: both;
+}
+
+.icon-menu {
+  font-size: 70px;
+  position: absolute;
+  /*float: right;*/
+  top: 0;
+  right: 0;
+}
+
+.clearfix {
+  clear: both;
+}
