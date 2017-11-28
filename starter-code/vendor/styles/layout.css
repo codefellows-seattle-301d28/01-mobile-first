@@ -1,0 +1,17 @@
+header, nav, article, aside, footer, section, div {
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  margin-left: -9vw;
+}
+
+li a {
+    text-decoration: none;
+    color: #777;
+    font-size: 150%;
+    border-bottom: 1px solid lightgray;
+    font-family: times;
+    display: block;
+}
