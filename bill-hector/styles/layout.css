@@ -23,6 +23,9 @@
   .icon-happy{
     display: none;
   }
+  img {
+    margin:auto;
+  }
 }
 
 
