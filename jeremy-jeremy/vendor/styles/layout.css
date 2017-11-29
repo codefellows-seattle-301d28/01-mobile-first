@@ -1,0 +1,36 @@
+/* APP STYLES */
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+ .site-header {
+   padding: 20px;
+   background: #ffebaa;
+ }
+
+ nav ul {
+   padding: 0 0 0 15px;
+ }
+
+ nav ul li {
+   display: inline-block;
+   padding: 4px;
+ }
+
+ nav ul li a {
+   font-size: 20px;
+   color: #444;
+   text-decoration: none;
+   padding-bottom: 10px;
+ }
+
+.byline, .byline * {
+  color: #444;
+  display: inline-block;
+}
+
+.byline a {
+  font-weight: bold;
+  text-decoration: none;
+}

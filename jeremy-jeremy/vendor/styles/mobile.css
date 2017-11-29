@@ -1,0 +1,53 @@
+/* Mobile App Styles */
+
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+
+  .main-nav-mobile {
+    position: relative;
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .main-nav-mobile .icon-menu {
+    display: block;
+    position: relative;
+    top: -175px;
+    left: 92%;
+    font-size: 45px;
+    z-index: 2;
+
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .main-nav-mobile .icon-menu input {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0; /* hide this */
+    z-index: 3; /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+    top: 7px;
+    left: 2px;
+    height: 33px;
+    width: 40px;
+  }
+
+  .main-nav-mobile .icon-menu input ~ ul {
+    display: none ;
+  }
+
+  .main-nav-mobile .icon-menu input:checked ~ ul {
+    display: block;
+    margin: 125px 0 -185px -350px;
+  }
+
+  .main-nav-mobile .icon-menu input:checked ~ ul li {
+    display: block;
+    border-bottom: 1px #AAA solid;
+  }
+
+}
