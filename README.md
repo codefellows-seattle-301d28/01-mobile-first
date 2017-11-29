@@ -203,6 +203,7 @@ This application is an easy to maintain blog called the Kilovolt Blog. I am buil
 11-28-2017 12:25pm - Implemented linking of stylesheets and created them as necessary/ACP
 11-28-2017 12:40pm - Implemented hamburger menu using given icons and added css rules to mobile views
 11-28-2017 1:22pm - Updated change log/ACP
+11-28-2017 5:22PM - Update css page stylings
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
