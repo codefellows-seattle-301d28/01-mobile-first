@@ -77,8 +77,12 @@ nav ul li a {
   line-height: 30px;
 }
 
-.article-body img {
+.pull-right {
   float: right;
+}
+
+.pull-left {
+  float: left;
 }
 
 @media only screen and (min-width: 600px) {
