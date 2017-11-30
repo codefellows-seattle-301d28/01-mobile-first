@@ -1,0 +1,15 @@
+.pull-right {
+    float:right;
+}
+
+.pull-left {
+    float:left;
+}
+
+.byline {
+    display: inline-flex;
+ }
+ 
+ time{
+     margin-left:10px;
+ }

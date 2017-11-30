@@ -1,12 +1,42 @@
-@media only screen and (min-width: 600px) {
-    .icon-menu {
-        color: #000;
-
-    }
+.main-nav:hover li{
+    display:block;
+    margin-bottom: 10px;
+    margin-left:0;
+    border-style: none none solid none;
+    border-width:thin;
+    border-color:grey;
 }
-
-@media only screen and (min-width: 800px) {
-    .icon-menu {
-        visibility: hidden;
+   
+   
+.icon-menu {
+        font-size:300%;
+        position: absolute;
+        top:0;
+        right:0;
     }
+    
+li  {
+        display: none;
+    }
+
+@media only screen and (min-width: 600px) {
+
+
+    .main-nav  {
+        display: inline;
+        
+    }
+    
+    .main-nav:hover li {
+        display: inline;
+    }
+
+    li  {
+        display: inline;    
+    }
+
+    .icon-menu {
+        display: none;
+    }
+
 }
