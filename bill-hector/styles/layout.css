@@ -1,0 +1,24 @@
+@media (min-width: 320px){
+  float: none;
+  width: 100%;
+}
+@media (min-width: 641px){
+  .icon-happy{
+    display: none;
+  }
+  img {
+    margin:auto;
+  }
+}
+
+@media (max-width: 640px) {
+  img {
+    width: 100%;
+  }
+  li {
+    display: none;
+  }
+  .main-nav:hover .tab {
+    display: block;
+  }
+}
